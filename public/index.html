@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Formulario de Canciones</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Solicitar canción</h1>
+    <form id="song-form" action=# method="POST">
+
+      <label for="song-name">Nombre de la Canción*:</label>
+      <input type="text" id="song-name" name="songName" required>
+      
+      <label for="song-link">Enlace de Spotify:</label>
+      <input type="url" id="song-link" name="songLink">
+      
+      <label for="name">Tu nombre*:</label>
+      <input type="text" id="name" name="name" required>
+      
+
+      <button type="submit">Enviar</button>
+    </form>
+
+
+  </div>
+ 
+</body>
+</html>
